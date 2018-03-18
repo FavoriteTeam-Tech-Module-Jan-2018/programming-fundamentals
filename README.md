@@ -22,7 +22,7 @@ The width and height come as floating point numbers on the console, formatted to
 #### Examples
 
 | Input  | Output |
-| -----: | -----: |
+| :----- | -----: |
 | 2<br>7 | 14.00 |
 | 7<br>8 | 56.00 |
 | 12.33<br>5 | 61.65 |
@@ -37,7 +37,7 @@ A program, which converts miles to kilometers. The output is formatted to the 2n
 #### Examples
 
 | Input  | Output |
-| -----: | -----: |
+| :----- | -----: |
 | 60     | 96.56  |
 | 1      | 1.61   |
 | 52.113 | 83.86  |
