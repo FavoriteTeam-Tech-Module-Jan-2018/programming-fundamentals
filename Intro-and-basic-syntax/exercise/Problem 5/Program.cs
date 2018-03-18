@@ -13,7 +13,7 @@ class Program {
 		// And we print them in the required format
 		Console.WriteLine("Name: {0}\nHealth: |{1}{2}|\nEnergy: |{3}{4}|",
 				name,
-				new string('|', currentHealth),
+				new string('|', currHealth),
 				new string('.', maxHealth - currHealth),
 				new string('|', currEnergy),
 				new string('.', maxEnergy - currEnergy));
