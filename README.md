@@ -34,6 +34,14 @@ Miles to Kilometers
 
 A program, which converts miles to kilometers. The output is formatted to the 2nd decimal place.
 
+#### Examples
+
+| Input  | Output |
+| :----- | -----: |
+| 60     | 96.56  |
+| 1      | 1.61   |
+| 52.113 | 83.86  |
+
 --------
 
 ### Problem 4.               
@@ -46,73 +54,32 @@ on the console in the following format:
 
 ·        
 Name – as per the input
-
 ·        
 Volume – **integer**, **suffixed** by “**ml**” (e.g. “**220ml**”)
-
 ·        
 Energy content – **integer**, **suffixed** by “**kcal**” (e.g.
 “**500kcal**”)
-
 ·        
 Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”) 
-
-#### Examples
-
- 
-
-**Input**
-
- 
-
-**Output**
-
- 
-
-Nuka-Cola
-
-220
-
-300
-
-70
-
- 
-
-220ml Nuka-Cola:
-
-660kcal, 154g sugars
-
- 
-
- 
-
-**Input**
-
- 
-
-**Output**
-
- 
-
-Ice Cold Nuka-Cola
-
-250
-
-350
-
-65
-
- 
-
-250ml Ice Cold Nuka-Cola:
-
-875kcal, 162.5g sugars
-
 #### Examples
 
 | Input  | Output |
 | :----- | -----: |
-| 60     | 96.56  |
-| 1      | 1.61   |
-| 52.113 | 83.86  |
+| Nuke-Cola | 220ml Nuke-Cola: |
+| 220     | 660kcl, 154g sugars |
+| 300 |  |
+| 70 |  |
+
+| Input  | Output |
+| :----- | -----: |
+| Ice Cold Nuke-Cola | 250ml Ice Cold Nuke-Cola: |
+| 250     | 875kcl, 162.5g sugars |
+| 350 |  |
+| 65 |  |
+
+| Input  | Output |
+| :----- | -----: |
+| Nuke-Cola Quantum | 350ml Nuke-Cola Quantum: |
+| 350     | 2100kcl, 490g sugars |
+| 600 |  |
+| 140 |  |
