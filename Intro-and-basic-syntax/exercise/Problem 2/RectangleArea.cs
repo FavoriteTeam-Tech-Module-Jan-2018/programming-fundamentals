@@ -12,10 +12,10 @@ namespace _02.RectangleArea
             double b = double.Parse(Console.ReadLine());
 
             // Calculate the rectangle area
-            double rect_area = a * b;
+            double rectangleArea = a * b;
 
           // Print the reslt
-            Console.WriteLine($"{rect_area:F2}");
+            Console.WriteLine($"{rectangleArea:F2}");
         }
     }
 }
