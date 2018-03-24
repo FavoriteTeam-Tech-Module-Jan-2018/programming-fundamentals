@@ -1,4 +1,5 @@
-﻿using System;
+﻿// CONFIRM from PracticallyNothing
+using System;
 
 namespace Problem_4
 {
