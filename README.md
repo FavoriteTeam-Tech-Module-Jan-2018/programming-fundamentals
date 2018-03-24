@@ -60,26 +60,11 @@ Volume – **integer**, **suffixed** by “**ml**” (e.g. “**220ml**”)
 Energy content – **integer**, **suffixed** by “**kcal**” (e.g.
 “**500kcal**”)
 ·        
-Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”) 
+Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”)
 #### Examples
 
 | Input  | Output |
-| :----- | -----: |
-| Nuke-Cola | 220ml Nuke-Cola: |
-| 220     | 660kcl, 154g sugars |
-| 300 |  |
-| 70 |  |
-
-| Input  | Output |
-| :----- | -----: |
-| Ice Cold Nuke-Cola | 250ml Ice Cold Nuke-Cola: |
-| 250     | 875kcl, 162.5g sugars |
-| 350 |  |
-| 65 |  |
-
-| Input  | Output |
-| :----- | -----: |
-| Nuke-Cola Quantum | 350ml Nuke-Cola Quantum: |
-| 350     | 2100kcl, 490g sugars |
-| 600 |  |
-| 140 |  |
+| :----- | :----- |
+| Nuke-Cola<br>220<br>300<br>70 | 220ml Nuke-Cola:<br>660kcl, 154g sugars |
+| Ice Cold Nuke-Cola<br>250<br>350<br>65 | 250ml Ice Cold Nuke-Cola:<br>875kcl, 162.5g sugars |
+| Nuke-Cola Quantum<br>350<br>600<br>140 | 350ml Nuke-Cola Quantum:<br>2100kcl, 490g sugars |
