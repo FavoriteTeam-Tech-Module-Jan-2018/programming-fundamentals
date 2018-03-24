@@ -15,9 +15,8 @@ namespace Problem_4
             int sugar1 = int.Parse(Console.ReadLine());
 
             //Here we calculate the sugar and energy content for the given volume
-            int kCalloriesPer100ml = (int)(volume1 / 100.0 * energy1);
-
-            int sugar100ml = (int)(volume1 / 100.0 * sugar1);
+            double kCalloriesPer100ml = volume1 / 100.0 * energy1;
+            double sugar100ml         = volume1 / 100.0 * sugar1;
 
             //TO DO
             Console.WriteLine(
