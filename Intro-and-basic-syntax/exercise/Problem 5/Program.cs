@@ -6,8 +6,8 @@ class Program {
 		// We read the character's name, as well as his statistics
 		string name = Console.ReadLine();
 		int currentHealth = int.Parse(Console.ReadLine()),
-			currEnergy = int.Parse(Console.ReadLine()),
 			maxHealth  = int.Parse(Console.ReadLine()),
+			currEnergy = int.Parse(Console.ReadLine()),
 			maxEnergy  = int.Parse(Console.ReadLine());
 
 		// And we print them in the required format
