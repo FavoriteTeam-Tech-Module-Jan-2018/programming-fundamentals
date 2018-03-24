@@ -47,20 +47,9 @@ A program, which converts miles to kilometers. The output is formatted to the 2n
 ### Problem 4.               
 Beverage Labels
 
-Write a program, which reads a food product
-**name**, **volume**, **energy content****per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content**
-for the **given volume** and print them
-on the console in the following format:
+A program, which reads a food product **name**, **volume**, **energy content****per 100ml** and **sugar content per 100ml**, calculates the **energy** and **sugar content**
+for the **given volume** and prints them on the console.
 
-·        
-Name – as per the input
-·        
-Volume – **integer**, **suffixed** by “**ml**” (e.g. “**220ml**”)
-·        
-Energy content – **integer**, **suffixed** by “**kcal**” (e.g.
-“**500kcal**”)
-·        
-Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”)
 #### Examples
 
 | Input  | Output |
@@ -68,3 +57,16 @@ Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”)
 | Nuke-Cola<br>220<br>300<br>70 | 220ml Nuke-Cola:<br>660kcl, 154g sugars |
 | Ice Cold Nuke-Cola<br>250<br>350<br>65 | 250ml Ice Cold Nuke-Cola:<br>875kcl, 162.5g sugars |
 | Nuke-Cola Quantum<br>350<br>600<br>140 | 350ml Nuke-Cola Quantum:<br>2100kcl, 490g sugars |
+
+### Problem 5.
+A program, which displays information about a video game character.
+It receives their name, current health, maximum health, current energy and maximum energy on separate lines.
+The current values must always be valid (equal or lower than their respective max values).
+
+
+| Input  | Output |
+| :----- | :----- |
+| Mayro<br>5<br>10<br>9<br>10   | Name: Mayro<br>Health: \|\|\|\|\|\|.....\|<br>Energy: \|\|\|\|\|\|\|\|\|\|.\| |
+| Bauser<br>10<br>10<br>1<br>10 | Name: Bauser<br>Health: \|\|\|\|\|\|\|\|\|\|\|\|<br>Energy: \|\|\|\|\|\|\|\|\|\|\|\| |
+| Loogi<br>8<br>20<br>2<br>14   | Name: Loogi<br>Health: \|\|\|\|\|\|\|\|\|............\|<br>Energy: \|\|\|............\| |
+| Toad<br>0<br>5<br>0<br>10     | Name: Toad<br>Health: \|.....\|<br>Energy: \|..........\| |
